@@ -1,0 +1,261 @@
+.join_title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.join_next_btn, .join_pre_btn{
+    width: 7.5rem;
+    height: 2.8rem;
+    border-radius: 12px;
+
+}
+
+
+.join_next_btn{
+    background-color: var(--point-color);
+    font-weight: 500;
+    color :black;
+}
+.join_pre_btn{
+    background-color: lightgray;
+    color : white;
+    margin-right : 3rem
+}
+
+.join_titles{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.3rem;  
+    /* border: 1px solid red; */
+}
+
+.join_img{
+width: 200px;
+}
+.join_step_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.join_step_desc{
+    font-size : 1.3rem;
+    margin-bottom: 1rem;
+}
+.join_step_text{
+    font-size: .9rem;
+
+}
+.join_icon{
+    color : red
+}
+
+.join_ess{
+    color : red;
+    font-weight: 500;
+    margin-right: .4rem;
+}
+
+.join_step1_allagree{
+   font-weight: 700;
+}
+.step1_desc_btn{
+    text-decoration: underline;
+    padding-left:10rem;
+    color : gray;
+    font-size: 18px;
+}
+
+.join_step1{
+    /* border : 2px solid purple */
+}
+
+.join_step1_top{
+    margin-bottom: 2.5rem;
+    padding-left: 1rem;
+}
+.join_step1_form{
+    width: 1180px;
+    padding : 2.5rem;
+    border : 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+}
+.join_step1_item:first-child{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1.5rem;
+}
+
+
+
+.join_step1_item{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.step1_all{
+    font-size: 1.1rem;
+}
+
+.join_step1_text{
+    width: 700px;
+    /* height: 50px; */
+    /* line-height: 50px; */
+    /* border: 1px solid orange; */
+    font-weight: 500;
+    padding-left: 0.8rem;
+
+}
+.join_point{
+    color : red;
+    /* border: 1px solid blue; */
+    font-weight: 500;
+}
+
+.join_step1_term{
+    /* border : 1px solid gray; */
+    /* padding: 1.5rem 2.2rem 1rem 2.2rem; */
+    margin-top : 1rem;
+}
+.join_step1_term_textarea{
+    height: 20rem;
+    width: 1000px;
+    margin-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.join_btns{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+/* border: 1px solid red; */
+}
+
+
+/*  주소검색 모달 위치 조정하기  */
+.join_postmodal{
+    position: fixed;
+    left : 40%;
+    top : 20%;
+}
+
+.join_step2_total{
+    /* border : 1px solid red; */
+    /* padding : 1rem 3rem 1rem 3rem; */
+}
+.join_step1_form{
+    width: 1180px;
+    padding : 2.5rem;
+    border : 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.join_step2_form{
+    width: 1180px;
+    padding : 1.6rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.join_step2_item{
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 1.1rem;
+    padding-left: 1.3rem;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+}
+
+.join_step2_item:first-child{
+    margin-top: 2rem;
+}
+
+.join_step2_input{
+    width: 14rem;
+    height: 2rem;
+    border: 1px solid gray;
+}
+.join_small_input{
+    width: 7rem;
+}
+
+ .join_step2_email{
+    display: flex;
+    align-items: center;
+ }
+
+.join_dat{
+    margin : 0 .8rem 0 .8rem;
+    font-weight: 600;
+    
+}
+.join_stpe2_input_addr{
+    margin-bottom: .5rem;
+}
+.join_step2_dupli_btn, .join_addr_btn{
+color : white;
+background-color: gray;
+width: 8rem;
+border-radius: 5rem;
+padding : 0.3rem 0.7rem 0.3rem 0.7rem;
+margin-left: 1rem
+}
+
+.join_step2_categories{
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.join_step2_category{
+    width: 200px;
+    font-weight: 500;
+    font-size : .9rem;
+    margin-bottom: 0.7rem;
+    /* border: 1px solid red; */
+}
+
+.join_step2_select{
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.join_step2_select_branch{
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+
+
+.join_stpe2_select_domain{
+    margin-left: 1rem;
+}
+.join_step2_telbar{
+    font-size : 1.2rem;
+    font-weight: 500;
+    margin: 0 .6rem 0 .6rem;
+}
+
+.join_step2_address_text{
+ margin-right: 2rem;   
+ font-size : .9rem;
+}
+
+.addr_text_add{
+margin-right: 3.8rem;
+}
+
+.join_step2_subtitle{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.join_step2_subtitles{
+border-bottom: 1px solid gray;
+padding-bottom: 1rem;
+}

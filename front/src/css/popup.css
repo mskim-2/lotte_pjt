@@ -1,0 +1,174 @@
+body.popup {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+/* search popup */
+.search_popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1160px;
+  height: 100vh;
+  display: none;
+  z-index: 101;
+}
+
+.search_popup.on {
+  display: block;
+}
+
+.search_popup .search {
+  position: relative;
+  padding: 60px 0 80px;
+  background: var(--bg-color);
+  z-index: 1;
+}
+
+.search_popup .search .full_inner {
+  position: relative;
+}
+
+.search_popup .search .close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.search_popup .search .tit {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.075em;
+  text-align: center;
+}
+
+.search_popup .form_search {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 60px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.search_popup .form_search input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+  border: 1px solid #aa9b90;
+}
+
+.search_popup .form_search .search_btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.search_popup .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* category popup */
+.category_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 101;
+  display: none;
+  padding-top: 160px;
+}
+
+.category_popup.on {
+  display: block;
+}
+
+.category_popup .inner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.category_popup .close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-100px);
+}
+
+.category_popup .tab_con {
+  display: none;
+}
+
+.category_popup .tab_con.on {
+  display: flex;
+}
+
+.category_popup .tab_menu {
+  width: 25%;
+}
+
+.category_popup .tab_menu h4 {
+  font-size: 15px;
+  line-height: 1.6em;
+  letter-spacing: -0.025em;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.category_popup .tab_menu li {
+  margin-bottom: 12px;
+}
+
+.category_popup .tab_menu li a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  letter-spacing: -0.025em;
+  transition: 0.25s;
+}
+
+.category_popup .tab_menu li a.off {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.category_popup .tab_cons {
+  width: 630px;
+}
+
+.category_popup .tab_btns {
+  flex-shrink: 0;
+}
+
+.category_popup .tab_btns .btn {
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 1.2em;
+  letter-spacing: -0.075em;
+  color: rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+  margin-bottom: 10px;
+}
+
+.category_popup .tab_btns .btn.on,
+.category_popup .tab_btns .btn:hover {
+  color: rgba(0, 0, 0, 0.8);
+}

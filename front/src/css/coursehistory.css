@@ -1,0 +1,226 @@
+.courserHistory_topinfo{
+    background-color: rgb(247,242,239);
+    border-radius: 12px;
+    width: 1040px;
+    height: 222px;
+    padding: 40px;
+    font-size :14px;
+    /* margin-left : 5rem; */
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color : rgba(0,0,0,0.6)
+}
+
+.coursehistory_form{
+    /* display: flex; */
+    
+    justify-content: center;
+    padding: 0 1rem 0 1rem;
+    /* width: 1200px; */
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.topinfo_texts>li{
+    margin-bottom: 0.7rem;
+}
+
+.history_mid_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+/* margin: auto; */
+
+}
+.history_search_div{
+    position: relative;
+    margin-top: 3rem;
+    /* border: 1px solid red; */
+}
+
+.history_search{
+    border-radius: 1.3rem;
+    height: 58px;
+    width: 500px;
+    /* padding-left : 20px; */
+    /* background-image: url(../../public/img/coursehistory/btn-search-menu.svg);
+    background-repeat: no-repeat;
+    background-size: 40px; */
+    /* background-position: 440px center; */
+    /* margin-top : 3rem; */
+    /* margin: auto; */
+}
+
+.history_search_icon{
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    right: 20px;
+     top : 12px;
+     cursor: pointer;
+     
+}
+
+
+.history_yearfilter{
+    text-align: center;
+    width: 116px;
+}
+
+.history_mid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.history_btn_active{
+    font-weight: bold;
+    width: 550px;
+    height: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom :2px solid gray;
+    padding-bottom: 2.5rem;
+
+}
+
+.history_btn{
+    width: 550px;
+    height: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom :1px solid rgb(221,205,197);
+    padding-bottom: 2.5rem;
+}
+.noresult_div{
+    text-align: center;
+    margin: auto;
+}
+.noresult_text{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.noresult_icon{
+    font-weight: 500;
+    font-size: 50px;
+    color : rgb(217,205,197)
+}
+
+
+.history_content{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    /* gap : 20px; */
+
+    /* flex-direction: row; */
+    /* gap :2rem; */
+    /* box-sizing: border-box; */
+}
+
+/* HistoryItem */
+
+.history_item_total{
+display: flex;
+flex-wrap: wrap;
+flex-direction: space-between;
+gap : 30px;    
+/* border : 1px solid red; */
+width: 100%;                                                                                        ;
+}
+
+
+.history_item{
+    padding: 30px;
+    width: 48.5%;
+    min-width: 500px; 
+    height: 445px;
+    border : 1px solid rgb(221,205,197);
+    border-radius: 0.8rem;
+    background-color: white;
+    /* flex : 1 1 calc(50% -20px); */
+    box-sizing: border-box;
+}
+
+.history_item_top{
+    height: 64px;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    /* border : 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom : 1.1rem;
+    background-color: rgb(248, 248, 248);
+    font-size : 13px;
+    font-weight: 700;
+}
+
+.history_item_top_subject{
+    width: 70px;
+    /* border: 1px solid red; */
+}
+
+.history_item_top_left>ul>li{
+display: flex;
+}
+
+.history_detail_btn{
+    width: 70px;
+    height: 40px;
+    font-size : 13px;
+    font-weight: 700;
+    border : 1px solid rgb(221,205,197);
+    border-radius: 0.3rem;
+    /* padding : 1px 2px 1px 2px; */
+}
+
+
+
+.history_item_branch{
+    border : 1px solid rgb(34, 34, 34);
+    border-radius: 6px;
+    width: 80px;
+    font-size : 11px;
+    text-align: center;
+}
+
+.history_item_coursename{
+    font-size : 20px;
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+
+.history_item_info{
+    font-size : 13px;
+    color : rgba(0,0,0,0.8);
+    margin-top : 0.6rem;
+}
+.history_item_info2{
+    margin-right: 10px;
+}
+
+.history_item_info:last-child{
+    margin-bottom: 1rem;
+}
+.history_item_mid, .history_item_bottom{
+    padding-left: 12px;
+}
+.history_item_bottom{
+    border-top : 1.5px solid black;
+    padding-top: 1.1rem;
+}
+.history_item_bottom_name{
+    font-weight: bold;
+    font-size : 18px;
+    margin-bottom : 0.6rem;
+
+}
+.history_item_bottom_state, .history_item_bottom_price{
+    font-size : 15px;
+    font-weight: 600;
+    margin-bottom : 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
